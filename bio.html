@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, minimum-scale=1" />
+  <title>P03 - Portfolio Winkie Ng</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <section class="navbar">
+    <h2><span class="heading-w">.</span></h2>
+    <nav>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+      <div class="logo">
+        <a href="index.html">Winkie Ng</a>
+      </div>
+      <div class="nav-wrapper">
+        <ul>
+          <li><a href="bio.html" class="nav-link">About</a></li>
+          <li><a href="index.html#project" class="nav-link">Work</a></li>
+          <li><a href="index.html#art" class="nav-link">Illustration</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section class="bio-page">
+    <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
+    <div class="bio-flex">
+      <div class="bio-image" data-aos="fade-down">
+        <img src="img/bio.JPG" alt="bio_image">
+      </div>
+      <div class="bio-text" data-aos="fade-down">
+        <h3>My name is Winkie. </h3>
+        <p>I'm a graphic designer and digital illustrator living in Vancouver, BC.
+          I am currently majoring in Interactive Arts and Technology with a
+          concentration in Design and minoring in Publishing at Simon Fraser
+          University. Before I entered SFU, I thought design was just drawing.
+          However, the education from SFU has led me to accumulate more experiences
+          in different categories of design, especially user experience design (UX).
+          It also helps me to explore which type of designer I would like to be and
+          taught me the ability to use different software, such as Adobe Illustrator,
+          Adobe Photoshop, Adobe Indesign, SolidWorks, etc. My aspiration is to
+          become a graphic and product designer who could design a product by combining
+          a pragmatic approach with aesthetics, while meeting the user's actual needs
+          and bringing warmth and happiness to users. </p>
+        <h3><span class="title">Interest in employment</span></h3>
+        <ul>
+          <li><i class="fa fa-angle-right"></i>product designer</li>
+          <li><i class="fa fa-angle-right"></i>graphic designer</li>
+          <li><i class="fa fa-angle-right"></i>industrial designer</li>
+          <li><i class="fa fa-angle-right"></i>UX/UI designer</li>
+          <li><i class="fa fa-angle-right"></i>digital designer</li>
+        </ul>
+        <a class="button" href="contact.html">contact</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-area">
+    <div class="main">
+      <div class="footer">
+        <div class="single-footer">
+          <ul>
+            <li>
+              <p><a href="pdf/Ng_Winkie_Resume.pdf" target="_blank">resume</a></p>
+            </li>
+            <!-- <li>
+              <p><i class="fa fa-mobile"></i><a href="tel:1-778-882-9281">+1 (778) 882 9281</a></p>
+            </li> -->
+            <li>
+              <p><i class="fa fa-envelope-o"></i><a href="mailto:winkien@sfu.ca">winkien@sfu.ca</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+          <p>All Right Reserved by &copy;Winkie Ng</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/style.js"></script>
+  <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 800
+    });
+  </script>
+</body>
+
+</html>

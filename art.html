@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, minimum-scale=1" />
+  <title>Winkie Ng's Portfolio</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- header -->
+  <section class="navbar">
+    <h2><span class="heading-w">.</span></h2>
+    <nav>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+      <div class="logo">
+        <a href="index.html">Winkie Ng</a>
+      </div>
+      <div class="nav-wrapper">
+        <ul>
+          <li><a href="bio.html" class="nav-link">About</a></li>
+          <li><a href="index.html#project" class="nav-link">Work</a></li>
+          <li><a href="index.html#art" class="nav-link">Illustration</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section class="art-page">
+    <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
+  </section>
+
+  <section id="art">
+    <div class="home-flex2">
+      <div class="home-project" data-aos="fade-down">
+        <img src="img/chu.png" alt="c1">
+      </div>
+      <div class="home-project" data-aos="fade-down">
+        <img src="img/yuki.png" alt="y1">
+      </div>
+      <div class="home-project" data-aos="fade-down">
+        <img src="img/kyt.png" alt="k1">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-area">
+    <div class="main">
+      <div class="footer">
+        <div class="single-footer">
+          <ul>
+            <li>
+              <p><a href="pdf/Ng_Winkie_Resume.pdf" target="_blank">resume</a></p>
+            </li>
+            <!-- <li>
+              <p><i class="fa fa-mobile"></i><a href="tel:1-778-882-9281">+1 (778) 882 9281</a></p>
+            </li> -->
+            <li>
+              <p><i class="fa fa-envelope-o"></i><a href="mailto:winkien@sfu.ca">winkien@sfu.ca</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+          <p>All Right Reserved by &copy;Winkie Ng</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/style.js"></script>
+  <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 800
+    });
+  </script>
+</body>
+
+</html>

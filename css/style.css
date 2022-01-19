@@ -996,11 +996,16 @@ input[type=search]:focus, textarea:focus {
 /* home page */
 .home-page {
   color: #6d5946;
-  margin-left: 3em;
-  margin-right: 3em;
+
   font-family: "Poppins";
   text-align: center;
-  margin-top: 7em;
+}
+
+#project{
+    margin-top: 7em;
+    margin-bottom: 7em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 @media screen and (max-width: 340px){
@@ -1213,9 +1218,16 @@ input[type=search]:focus, textarea:focus {
 }
 
 /* art page */
+
+#art .home-flex2 {
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
 #art .home-flex2 .home-project{
   position: relative;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  /* margin-top: 5em; */
+  /* margin-bottom: 5em; */
   max-width: 30em;
+  margin-top: -.1em;
 }

@@ -681,25 +681,23 @@ input[type=search]:focus, textarea:focus {
 .footer ul {
   text-align: center;
   color: #6d5946;
-  margin-right: 1em;
-  padding-left: 1em;
 }
 
 .footer ul li {
   display: inline-block;
-
+  margin-right: 1em;
 }
 
 .footer ul li a:hover, .contact-page a:hover {
   color: #af9883;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .bottom-footer p {
   text-align: center;
   color: #af9883;
   font-size: 0.8em;
-  /* margin-left: 1em; */
 }
 
 .footer-social i {

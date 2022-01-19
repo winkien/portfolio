@@ -29,7 +29,7 @@ nav {
 }
 
 .logo {
-  float:left;
+  float: left;
   padding-bottom: 0.5em;
   padding-left: 0.1em;
   padding-right: 0.5em;
@@ -233,7 +233,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 #nav:checked~.nav-wrapper ul li a {
   opacity: 1;
   transform: translateX(0);
-}
+} 
 
 .hidden {
   display: none;

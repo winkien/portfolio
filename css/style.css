@@ -1082,7 +1082,7 @@ input[type=search]:focus, textarea:focus {
 
 .overlay {
   position: absolute;
-  top: 0;
+  top: -.4em;
   bottom: 0;
   left: 0;
   right: 0;
@@ -1094,7 +1094,7 @@ input[type=search]:focus, textarea:focus {
 }
 
 .home-project:hover .overlay{
-  opacity: 0.7;
+  opacity: 0.9;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -1165,60 +1165,30 @@ input[type=search]:focus, textarea:focus {
 }
 
 /* back to top button */
-#back-to-top-btn{
+#myBtn {
   display: none;
   position: fixed;
   bottom: 1.25em;
   right: 1.25em;
-  font-size: 1.5em;
+  z-index: 99;
+  font-size: 18px;
   width: 2em;
   height: 2em;
-  /* background-color: #fff; */
   border: none;
-  color: #af9883;
-  cursor: pointer;
   outline: none;
-  /* border: 0.1em solid #af9883; */
+  background-color: #af9883;
+  color: white;
+  cursor: pointer;
   border-radius: 50%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
-  /* transition-property: background-color, color; */
 }
 
-.btnEntrance {
-  animation-duration: 0.5s;
-  animation-fill-mode: both;
-  animation-name: btnEntrance;
-}
-
-@keyframes btnEntrance {
-  from{
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.btnExit {
-  animation-duration: 0.25s;
-  animation-fill-mode: both;
-  animation-name: btnExit;
-}
-
-@keyframes btnExit{
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
+#myBtn:hover {
+  background-color: #6d5946;
 }
 
 /* art page */
-
 #art .home-flex2 {
     margin-top: 7em;
     margin-bottom: 7em;

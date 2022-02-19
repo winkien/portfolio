@@ -41,7 +41,7 @@
   </section>
 
   <section class="p1-info">
-    <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up"></i></button>
     <div class="p1-flex1">
       <div class="p1-text" data-aos="fade-up">
         <h3><span class="number">01 </span>Spring 2020</h3>
@@ -151,6 +151,26 @@
       offset: 200,
       duration: 800
     });
+
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
   </script>
 </body>
 

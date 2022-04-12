@@ -773,7 +773,7 @@ input[type=search]:focus, textarea:focus {
 }
 
 /* project 1, 2, 3, 4, 5 page */
-.p1-info, .p2-info, .p3-info, .p4-info, .p5-info {
+.p1-info, .p2-info, .p3-info, .p4-info, .p5-info, .p6-info {
   color: #6d5946;
   font-family: "Trebuchet MS";
   margin-bottom: 5em;
@@ -781,21 +781,21 @@ input[type=search]:focus, textarea:focus {
   text-align: center;
 }
 
-.p1-info h3 .number, .p2-info h3 .number, .p3-info h3 .number, .p4-info h3 .number, .p5-info h3 .number{
+.p1-info h3 .number, .p2-info h3 .number, .p3-info h3 .number, .p4-info h3 .number, .p5-info h3 .number, .p6-info h3 .number{
   color: #cdbfb1;
 }
 
-.p1-info h3, .p2-info h3, .p3-info h3, .p4-info h3, .p5-info h3 {
+.p1-info h3, .p2-info h3, .p3-info h3, .p4-info h3, .p5-info h3, .p6-info h3 {
   color: #8c725a;
 }
 
-.p1-info p, .p2-info p, .p3-info p, .p4-info p, .p5-info p {
+.p1-info p, .p2-info p, .p3-info p, .p4-info p, .p5-info p, .p6-info {
   color: #af9883;
   font-family: "Poppins";
   text-align: center;
 }
 
-.p1-text p, .p2-text p, .p3-text p, .p4-text p, .p5-text p {
+.p1-text p, .p2-text p, .p3-text p, .p4-text p, .p5-text p, .p6-text p {
   font-size: 1.1em;
   line-height: 150%;
   text-align: left;
@@ -805,14 +805,23 @@ input[type=search]:focus, textarea:focus {
   max-width: 60%;
 }
 
-.p1-image img, .p2-image img, .p3-image img, .p4-image img, .p5-image img {
+.p1-image img, .p2-image img, .p3-image img, .p4-image img, .p5-image img, .p6-image img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.p1-image p, .p1-image2 p, .p2-image p, .p3-image p, .p4-image p, .p5-image p {
+.p1-image p, .p1-image2 p, .p2-image p, .p3-image p, .p4-image p, .p5-image p, .p6-image2 p, .p6-image3 p, .p6-image4 p, .p6-image5 p{
+  text-align: center;
+  margin-bottom:3em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 60%;
+}
+
+.p6-image1 video{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;
@@ -847,6 +856,26 @@ input[type=search]:focus, textarea:focus {
   margin-right: auto;
   display: block;
   max-width: 60%;
+}
+
+.p6-image2 img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50em;
+}
+.p6-image3 img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 40em;
+}
+
+.p6-image4 img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 40em;
 }
 
 .p2-flex3 img{

@@ -1090,7 +1090,7 @@ input[type=search]:focus, textarea:focus {
 
 #project .home-flex1 .home-project, #project .home-flex2 .home-project, #project .home-flex3 .home-project{
   position: relative;
-  max-width: 30em;
+  width: 30em;
 }
 
 .home-project img {

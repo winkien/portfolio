@@ -883,7 +883,7 @@ input[type=search]:focus, textarea:focus {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-height: 40em;
+  max-height: 80%;
 }
 
 .p6-image5 img{
@@ -1088,7 +1088,7 @@ input[type=search]:focus, textarea:focus {
   letter-spacing: .05em;
 } */
 
-.home-flex1, .home-flex2, .home-flex3{
+.home-flex{
   position: relative;
   display: flex;
   justify-content: center;
@@ -1096,6 +1096,7 @@ input[type=search]:focus, textarea:focus {
   flex-wrap: wrap;
   /* margin-bottom: 5em; */
   font-family: "Poppins";
+  margin: 10%;
 }
 
 /* .home-flex1 .home-text {
@@ -1103,7 +1104,7 @@ input[type=search]:focus, textarea:focus {
   max-width: 70em;
 } */
 
-#project .home-flex1 .home-project, #project .home-flex2 .home-project, #project .home-flex3 .home-project{
+#project .home-flex .home-project{
   position: relative;
   width: 30em;
 }
@@ -1233,12 +1234,12 @@ input[type=search]:focus, textarea:focus {
 }
 
 /* art page */
-#art .home-flex2 {
+#art .home-flex {
     margin-top: 7em;
     margin-bottom: 7em;
 }
 
-#art .home-flex2 .home-project{
+#art .home-flex .home-project{
   position: relative;
   /* margin-top: 5em; */
   /* margin-bottom: 5em; */

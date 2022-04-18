@@ -1073,7 +1073,7 @@ input[type=search]:focus, textarea:focus {
   font-size: 2em;
 }
 
-#project p{
+#project p, #art p{
   color: #6d5946;
   font-size: 1.2em;
   font-weight:500;

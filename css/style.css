@@ -883,7 +883,7 @@ input[type=search]:focus, textarea:focus {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-height: 80%;
+  max-width: 60%;
 }
 
 .p6-image5 img{

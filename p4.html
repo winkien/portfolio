@@ -9,6 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <script src="js/main.js" defer></script>
 
   <!-- Animate on Scroll -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -32,8 +33,8 @@
       <div class="nav-wrapper">
         <ul>
           <li><a href="bio.html" class="nav-link">About</a></li>
-          <li><a href="index.html#project" class="nav-link">Work</a></li>
-          <li><a href="art.html" class="nav-link">Illustration</a></li>
+          <li><a href="index.html#project" class="nav-link">Projects</a></li>
+          <li><a href="art.html" class="nav-link">Graphics</a></li>
         </ul>
       </div>
     </nav>
@@ -63,7 +64,7 @@
         </p>
       </div>
       <div class="p4-image">
-        <img src="img/332-cover.jpg" alt="332-cover">
+        <img src="img/p4/332-cover.jpg" alt="332-cover">
         <p>Cover of NOMI. [PDF]</p>
       </div>
     </div>
@@ -90,19 +91,19 @@
     </div>
     <div class="p4-flex2" data-aos="fade-up">
       <div class="p4-image" >
-        <img src="img/332-blinkplan.png" alt="332-blinkplan">
+        <img src="img/p4/332-blinkplan.png" alt="332-blinkplan">
         <p>The blinkplan of NOMI. [PDF]</p>
       </div>
       <div class="p4-image" >
-        <img src="img/332-toc-layout.png" alt="332-toc-layout">
+        <img src="img/p4/332-toc-layout.png" alt="332-toc-layout">
         <p>The layout of TOC. [PDF]</p>
       </div>
       <div class="p4-image" >
-        <img src="img/332-story-layout1.png" alt="332-story-layout1">
+        <img src="img/p4/332-story-layout1.png" alt="332-story-layout1">
         <p>The layout of opening spread. [PDF]</p>
       </div>
       <div class="p4-image" >
-        <img src="img/332-story-layout2.png" alt="332-story-layout2">
+        <img src="img/p4/332-story-layout2.png" alt="332-story-layout2">
         <p>The sketch of editorial story. [PDF]</p>
       </div>
     </div>
@@ -121,16 +122,6 @@
         </p>
       </div>
     </div>
-    <div class="p4-flex2" >
-      <div class="p4-image" data-aos="fade-up">
-        <img src="img/332-story2.png" alt="332-story1">
-        <p>The opening spread of NOMI. [PDF]</p>
-      </div>
-      <div class="p4-image" data-aos="fade-up">
-        <img src="img/332-story1.png" alt="332-story2">
-        <p>One of the spread of NOMI. [PDF]</p>
-      </div>
-    </div>
     <div class="p4-flex6">
       <div class="p4-text" data-aos="fade-up">
         <h3>Reflection</h3>
@@ -143,18 +134,96 @@
           content for both print and online.
         </p>
       </div>
-      <div class="p4-image" data-aos="fade-up">
-        <img src="img/332-box.png" alt="332-story2">
+    </div>
+    <div class="p4-flex6" data-aos="fade-up">
+      <div class="p4-image" >
+        <img src="img/p4/332-box.png" alt="332-story2">
         <p>The box AD of NOMI. [PDF]</p>
       </div>
-      <div class="p4-image" data-aos="fade-up">
-        <img src="img/332-card.png" alt="332-story2">
+      <div class="p4-image" >
+        <img src="img/p4/332-card.png" alt="332-story2">
         <p>The business card of NOMI. [PDF]</p>
       </div>
-      <div class="p4-image" data-aos="fade-up">
-        <img src="img/332-online.png" alt="332-story1">
+      <div class="p4-image" >
+        <img src="img/p4/332-online.png" alt="332-story1">
         <p>The online article of the editorial story with tower AD. [PDF]</p>
       </div>
+    </div>
+    <div class="p4-flex9" data-aos="fade-up">
+      <button id="prev-btn">
+        <i class="fa fa-caret-left"></i>
+      </button>
+      <div id="book" class="book">
+        <!-- paper 1 -->
+        <div id="p1" class="paper">
+          <div class="front">
+            <div id="f1" class="front-content">
+              <img src="img/p4/332-p1.png" alt="332-cover">
+            </div>
+          </div>
+          <div class="back">
+            <div id="b1" class="back-content">
+              <img src="img/p4/332-p2.png" alt="332-toc1">
+            </div>
+          </div>
+        </div>
+        <!-- paper 2 -->
+        <div id="p2" class="paper">
+          <div class="front">
+            <div id="f2" class="front-content">
+              <img src="img/p4/332-p3.png" alt="332-toc2">
+            </div>
+          </div>
+          <div class="back">
+            <div id="b2" class="back-content">
+              <img src="img/p4/332-p4.png" alt="332-story1">
+            </div>
+          </div>
+        </div>
+        <!-- paper 3 -->
+        <div id="p3" class="paper">
+          <div class="front">
+            <div id="f3" class="front-content">
+              <img src="img/p4/332-p5.png" alt="332-story2">
+            </div>
+          </div>
+          <div class="back">
+            <div id="b3" class="back-content">
+              <img src="img/p4/332-p6.png" alt="332-story3">
+            </div>
+          </div>
+        </div>
+        <!-- paper 4 -->
+        <div id="p4" class="paper">
+          <div class="front">
+            <div id="f4" class="front-content">
+              <img src="img/p4/332-p7.png" alt="332-story4">
+            </div>
+          </div>
+          <div class="back">
+            <div id="b4" class="back-content">
+              <img src="img/p4/332-p8.png" alt="332-story5">
+            </div>
+          </div>
+        </div>
+        <!-- paper 5 -->
+        <div id="p5" class="paper">
+          <div class="front">
+            <div id="f5" class="front-content">
+              <img src="img/p4/332-p9.png" alt="332-story6">
+            </div>
+          </div>
+          <div class="back">
+            <div id="b5" class="back-content">
+              <!-- <h1>back 5</h1> -->
+              <img src="img/p4/332-p10.png" alt="332-story7">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="next-btn">
+        <i class="fa fa-caret-right"></i>
+      </button>
     </div>
   </section>
 

@@ -1500,8 +1500,8 @@ input[type=search]:focus, textarea:focus {
   position: fixed;
   bottom: 1em;
   right: 1em;
-  width: 2.5em;
-  height: 2.5em;
+  width: 3em;
+  height:3em;
   cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;

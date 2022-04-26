@@ -1496,7 +1496,7 @@ input[type=search]:focus, textarea:focus {
 
 /* back to top button */
 #myBtn {
-  display: none;
+  /* display: none;
   position: fixed;
   bottom: 1em;
   right: 1em;
@@ -1504,11 +1504,32 @@ input[type=search]:focus, textarea:focus {
   height:3em;
   cursor: pointer;
   transition-duration: 0.2s;
+  transition-timing-function: ease-in-out; */
+  display: none;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 99;
+  font-size: 2em;
+  border: none;
+  outline: none;
+  background-color: #af9883;
+  color: white;
+  cursor: pointer;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 100%;
+  transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 }
 
+/* button i{
+  width: 2em;
+} */
+
 #myBtn:hover {
-  opacity: 0.5;
+  /* opacity: 0.5; */
+    background-color: #6d5946;
 }
 
 /* art page */

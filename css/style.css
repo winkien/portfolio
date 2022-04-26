@@ -100,7 +100,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   transform: scaleX(1);
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 864px) and (min-width:600px){
   .logo {
     padding: 0;
     margin-top: .8em;
@@ -128,7 +128,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
   .nav-wrapper ul {
     position:absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     width: 100%;
   }
@@ -139,6 +139,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     list-style: none;
     float: right;
     margin-right: 2em;
+    margin-top:1em;
   }
 
   .nav-wrapper ul li:nth-child(1) a {
@@ -182,8 +183,8 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
   .nav-btn {
     position: fixed;
-    right: 2em;
-    top: 3em;
+    right: 1em;
+    top: 2.5em;
     display: block;
     width: 5em;
     height: 5em;
@@ -194,15 +195,252 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
   .nav-btn i {
     display: block;
-    width: 1.25em;
-    height: 0.125em;
+    width: 2em;
+    height: .225em;
     background: #8c725a;
-    border-radius: 0.125em;
     margin-left: 0.875em;
   }
 
   .nav-btn i:nth-child(1) {
     margin-top: 1em;
+  }
+
+  .nav-btn i:nth-child(2) {
+    margin-top: 0.35em;
+    opacity: 1;
+  }
+
+  .nav-btn i:nth-child(3) {
+    margin-top: 0.35em;
+  }
+
+  #nav:checked+.nav-btn i:nth-child(1) {
+    transform: translateY(.77em) rotate(135deg);
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width:400px){
+  .logo {
+    padding: 0;
+    margin-top: .4em;
+    margin-left: 3em;
+    font-size: 1em;
+    float: left;
+  }
+
+  .nav-wrapper {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #dcd2c8;
+    opacity: 0;
+    transition: all 0.2s ease;
+    font-size: 1.8em;
+  }
+
+  nav{
+    height:4em;
+  }
+
+  .nav-wrapper ul {
+    position:absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  .nav-wrapper ul li {
+    display: none;
+    width: 100%;
+    list-style: none;
+    float: right;
+    margin-right: 2em;
+    margin-top:1em;
+  }
+
+  .nav-wrapper ul li:nth-child(1) a {
+    transition-delay: 0.2s;
+    /* margin-right: 2em; */
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li:nth-child(2) a {
+    transition-delay: 0.3s;
+    /* margin-right: 2em; */
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li:nth-child(3) a {
+    transition-delay: 0.4s;
+    /* margin-right: 2em; */
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li:nth-child(4) a {
+    transition-delay: 0.5s;
+    margin-right: -3.4em;
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li a {
+    padding: 0.625em 1.5em;
+    opacity: 0;
+    color: #8c725a;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    transform: translateX(-1.25em);
+    transition: all 0.2s ease;
+  }
+
+  .nav-btn {
+    position: fixed;
+    right: 1em;
+    top: 2.5em;
+    display: block;
+    width: 5em;
+    height: 5em;
+    cursor: pointer;
+    z-index: 9999;
+    border-radius: 50%;
+  }
+
+  .nav-btn i {
+    display: block;
+    width: 1.5em;
+    height: .15em;
+    background: #8c725a;
+    margin-left: 0.875em;
+  }
+
+  .nav-btn i:nth-child(1) {
+
+  }
+
+  .nav-btn i:nth-child(2) {
+    margin-top: 0.35em;
+    opacity: 1;
+  }
+
+  .nav-btn i:nth-child(3) {
+    margin-top: 0.35em;
+  }
+
+  #nav:checked+.nav-btn i:nth-child(1) {
+    transform: translateY(.55em) rotate(135deg);
+  }
+}
+
+@media screen and (max-width: 400px){
+  .logo {
+    padding: 0;
+    margin-top: .4em;
+    margin-left: 3em;
+    font-size: .7em;
+    float: left;
+  }
+
+  .nav-wrapper {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #dcd2c8;
+    opacity: 0;
+    transition: all 0.2s ease;
+    font-size: 1.4em;
+  }
+
+  nav{
+    height:3em;
+  }
+
+  .nav-wrapper ul {
+    position:absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  .nav-wrapper ul li {
+    display: none;
+    width: 100%;
+    list-style: none;
+    float: right;
+    margin-right: 2em;
+    margin-top:1em;
+  }
+
+  .nav-wrapper ul li:nth-child(1) a {
+    transition-delay: 0.2s;
+    /* margin-right: 2em; */
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li:nth-child(2) a {
+    transition-delay: 0.3s;
+    /* margin-right: 2em; */
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li:nth-child(3) a {
+    transition-delay: 0.4s;
+    /* margin-right: 2em; */
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li:nth-child(4) a {
+    transition-delay: 0.5s;
+    margin-right: -3.4em;
+    float: right;
+    text-align: right;
+  }
+
+  .nav-wrapper ul li a {
+    padding: 0.625em 1.5em;
+    opacity: 0;
+    color: #8c725a;
+    font-size: 0.875em;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    transform: translateX(-1.25em);
+    transition: all 0.2s ease;
+  }
+
+  .nav-btn {
+    position: fixed;
+    right: 0em;
+    top: 2.1em;
+    display: block;
+    width: 5em;
+    height: 5em;
+    cursor: pointer;
+    z-index: 9999;
+    border-radius: 50%;
+  }
+
+  .nav-btn i {
+    display: block;
+    width: 1.2em;
+    height: .13em;
+    background: #8c725a;
+    margin-left: 0.875em;
+  }
+
+  .nav-btn i:nth-child(1) {
+
   }
 
   .nav-btn i:nth-child(2) {
@@ -212,6 +450,10 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
   .nav-btn i:nth-child(3) {
     margin-top: 0.25em;
+  }
+
+  #nav:checked+.nav-btn i:nth-child(1) {
+    transform: translateY(.43em) rotate(135deg);
   }
 }
 
@@ -224,9 +466,9 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   transition: transform 0.2s ease;
 }
 
-#nav:checked+.nav-btn i:nth-child(1) {
-  transform: translateY(0.375em) rotate(135deg);
-}
+/* #nav:checked+.nav-btn i:nth-child(1) {
+  transform: translateY(.43em) rotate(135deg);
+} */
 
 #nav:checked+.nav-btn i:nth-child(2) {
   opacity: 0;

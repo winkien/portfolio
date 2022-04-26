@@ -1104,7 +1104,7 @@ input[type=search]:focus, textarea:focus {
 }
 
 .p6-image1{
-  position: relative;
+  position: absolute;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
@@ -1121,6 +1121,10 @@ input[type=search]:focus, textarea:focus {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.p6-flex1{
+  margin-bottom: 55em;
 }
 
 .p6-image2 img{
@@ -1152,7 +1156,7 @@ input[type=search]:focus, textarea:focus {
 }
 
 .p7-image1{
-  position: relative;
+  position: absolute;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
@@ -1169,6 +1173,10 @@ input[type=search]:focus, textarea:focus {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.p7-flex1{
+  margin-bottom: 55em;
 }
 
 .p7-image2 img{

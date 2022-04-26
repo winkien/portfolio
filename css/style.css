@@ -812,7 +812,7 @@ input[type=search]:focus, textarea:focus {
   display: block;
 }
 
-.p1-image p, .p1-image2 p, .p2-image p, .p3-image p, .p4-image p, .p5-image p, .p6-image2 p, .p6-image3 p, .p6-image4 p, .p6-image5 p, .p7-image2 p{
+.p1-image p, .p1-image2 p, .p2-image p, .p3-image p, .p4-image p, .p5-image p, .p6-image2 p, .p6-image3 p, .p6-image4 p, .p6-image5 p, .p7-image2 p, .p7-image3 p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;
@@ -883,6 +883,21 @@ input[type=search]:focus, textarea:focus {
   display: block;
   max-width: 60%;
 }
+
+.p7-image2 img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width:60%;
+}
+
+.p7-image3 img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width:80%;
+}
+
 
 .p2-flex3 img{
   max-height: 50em;

@@ -860,14 +860,14 @@ input[type=search]:focus, textarea:focus {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width:80%;
+  max-width:60%;
 }
 
 .p6-image3 img{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .p6-image4 img{
@@ -894,12 +894,8 @@ input[type=search]:focus, textarea:focus {
 .p7-image3 img{
   margin-left: auto;
   margin-right: auto;
-  max-width:80%;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  display: block;
+  max-width:60%;
 }
 
 .p2-flex3 img{

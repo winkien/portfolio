@@ -1104,10 +1104,23 @@ input[type=search]:focus, textarea:focus {
 }
 
 .p6-image1{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.p6-image1 iframe {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 60%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  max-width: 60%;
+  text-align: center;
 }
 
 .p6-image2 img{
@@ -1136,6 +1149,26 @@ input[type=search]:focus, textarea:focus {
   margin-right: auto;
   display: block;
   max-width: 60%;
+}
+
+.p7-image1{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.p7-image1 iframe {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .p7-image2 img{

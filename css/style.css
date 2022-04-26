@@ -894,10 +894,13 @@ input[type=search]:focus, textarea:focus {
 .p7-image3 img{
   margin-left: auto;
   margin-right: auto;
-  display: block;
   max-width:80%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
 
 .p2-flex3 img{
   max-height: 50em;

@@ -1576,7 +1576,7 @@ input[type=search]:focus, textarea:focus {
 /* art page */
 #art .home-flex {
     margin-top: 7em;
-    /* margin-bottom: 7em; */
+    margin-bottom: 7em;
 }
 
 #art .home-flex .home-project{
@@ -1586,6 +1586,7 @@ input[type=search]:focus, textarea:focus {
   max-width: 30em;
   margin-top: -.06em;
 }
+
 
 .art-title {
   /* color: #8c725a; */

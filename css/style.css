@@ -1123,9 +1123,18 @@ input[type=search]:focus, textarea:focus {
   text-align: center;
 }
 
-.p6-flex1{
-  margin-bottom: 55em;
+@media screen and (min-width: 1330px){
+  .p6-flex1{
+    margin-bottom: 55em;
+  }
 }
+
+@media screen and (max-width: 1330px){
+  .p6-flex1{
+    margin-bottom: 50%;
+  }
+}
+
 
 .p6-image2 img{
   margin-left: auto;

@@ -1578,8 +1578,8 @@ input[type=search]:focus, textarea:focus {
 } */
 
 #myBtn:hover {
-  /* opacity: 0.5; */
-    background-color: #6d5946;
+  opacity: 0.5;
+    /* background-color: #6d5946; */
 }
 
 /* art page */

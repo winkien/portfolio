@@ -851,7 +851,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* project 1, 2, 3, 4, 5 page */
-.p1-info, .p2-info, .p3-info, .p4-info, .p5-info, .p6-info, .p7-info {
+.clown-info, .p2-info, .p3-info, .p4-info, .p5-info, .p6-info, .p7-info {
   color: #6d5946;
   font-family: "Trebuchet MS";
   margin-bottom: 5em;
@@ -859,21 +859,21 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   text-align: center;
 }
 
-.p1-info h3 .number, .p2-info h3 .number, .p3-info h3 .number, .p4-info h3 .number, .p5-info h3 .number, .p6-info h3 .number, .p7-info h3 .number{
+.clown-info h3 .number, .p2-info h3 .number, .p3-info h3 .number, .p4-info h3 .number, .p5-info h3 .number, .p6-info h3 .number, .p7-info h3 .number{
   color: #cdbfb1;
 }
 
-.p1-info h3, .p2-info h3, .p3-info h3, .p4-info h3, .p5-info h3, .p6-info h3, .p7-info h3 {
+.clown-info h3, .p2-info h3, .p3-info h3, .p4-info h3, .p5-info h3, .p6-info h3, .p7-info h3 {
   color: #8c725a;
 
 }
-.p1-info p, .p2-info p, .p3-info p, .p4-info p, .p5-info p, .p6-info p, .p7-info p {
+.clown-info p, .p2-info p, .p3-info p, .p4-info p, .p5-info p, .p6-info p, .p7-info p {
   color: #af9883;
   font-family: "Poppins";
   text-align: center;
 }
 
-.p1-text p, .p2-text p, .p3-text p, .p4-text p, .p5-text p, .p6-text p, .p7-text p {
+.clown-text p, .p2-text p, .p3-text p, .p4-text p, .p5-text p, .p6-text p, .p7-text p {
   font-size: 1.1em;
   line-height: 150%;
   text-align: left;
@@ -883,14 +883,14 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 60%;
 }
 
-.p1-image img, .p2-image img, .p3-image img, .p4-image img, .p5-image img, .p6-image img, .p7-image img {
+.clown-image img, .p2-image img, .p3-image img, .p4-image img, .p5-image img, .p6-image img, .p7-image img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.p1-image p, .p1-image2 p, .p2-image p, .p3-image p, .p4-image p, .p5-image p, .p6-image2 p, .p6-image3 p, .p6-image4 p, .p6-image5 p, .p7-image2 p, .p7-image3 p{
+.clown-image p, .clown-image2 p, .p2-image p, .p3-image p, .p4-image p, .p5-image p, .p6-image2 p, .p6-image3 p, .p6-image4 p, .p6-image5 p, .p7-image2 p, .p7-image3 p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;
@@ -899,7 +899,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 60%;
 }
 
-.p1-image2 img{
+.clown-image2 img{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -1030,7 +1030,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-height: 50em;
 }
 
-.p1-info img{
+.clown-info img{
   max-width: 50%;
 }
 

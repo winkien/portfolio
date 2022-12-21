@@ -851,7 +851,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* project 1, 2, 3, 4, 5 page */
-.clown-info, .soap-info, .nomi-info, .p5-info, .p6-info, .p7-info {
+.clown-info, .soap-info, .nomi-info, .zen-info, .p6-info, .p7-info {
   color: #6d5946;
   font-family: "Trebuchet MS";
   margin-bottom: 5em;
@@ -859,21 +859,21 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   text-align: center;
 }
 
-.clown-info h3 .number, .soap-info h3 .number, .nomi-info h3 .number, .p5-info h3 .number, .p6-info h3 .number, .p7-info h3 .number{
+.clown-info h3 .number, .soap-info h3 .number, .nomi-info h3 .number, .zen-info h3 .number, .p6-info h3 .number, .p7-info h3 .number{
   color: #cdbfb1;
 }
 
-.clown-info h3, .soap-info h3, .nomi-info h3, .p5-info h3, .p6-info h3, .p7-info h3 {
+.clown-info h3, .soap-info h3, .nomi-info h3, .zen-info h3, .p6-info h3, .p7-info h3 {
   color: #8c725a;
 
 }
-.clown-info p, .soap-info p, .nomi-info p, .p5-info p, .p6-info p, .p7-info p {
+.clown-info p, .soap-info p, .nomi-info p, .zen-info p, .p6-info p, .p7-info p {
   color: #af9883;
   font-family: "Poppins";
   text-align: center;
 }
 
-.clown-text p, .soap-text p, .nomi-text p, .p5-text p, .p6-text p, .p7-text p {
+.clown-text p, .soap-text p, .nomi-text p, .zen-text p, .p6-text p, .p7-text p {
   font-size: 1.1em;
   line-height: 150%;
   text-align: left;
@@ -883,14 +883,14 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 60%;
 }
 
-.clown-image img, .soap-image img, .nomi-image img, .p5-image img, .p6-image img, .p7-image img {
+.clown-image img, .soap-image img, .nomi-image img, .zen-image img, .p6-image img, .p7-image img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.clown-image p, .clown-image2 p, .soap-image p, .nomi-image p, .p5-image p, .p6-image2 p, .p6-image3 p, .p6-image4 p, .p6-image5 p, .p7-image2 p, .p7-image3 p{
+.clown-image p, .clown-image2 p, .soap-image p, .nomi-image p, .zen-image p, .p6-image2 p, .p6-image3 p, .p6-image4 p, .p6-image5 p, .p7-image2 p, .p7-image3 p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;
@@ -906,21 +906,21 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 80%;
 }
 
-.p5-image1 img, .p5-image3 img, .p5-image4 img{
+.zen-image1 img, .zen-image3 img, .zen-image4 img{
   margin-left: auto;
   margin-right: auto;
   display: block;
   max-width: 50%;
 }
 
-.p5-image2 img{
+.zen-image2 img{
   margin-left: auto;
   margin-right: auto;
   display: block;
   max-width: 30%;
 }
 
-.p5-image5 img, .p5-image6 img{
+.zen-image5 img, .zen-image6 img{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -1038,7 +1038,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-height:40em;
 }
 
-.soap-flex2, .nomi-flex2, .p5-flex {
+.soap-flex2, .nomi-flex2, .zen-flex {
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -1049,7 +1049,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* flipped book */
-.p5-flex9, .nomi-flex9{
+.zen-flex9, .nomi-flex9{
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1117,7 +1117,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* controller buttons */
-.p5-flex9 button, .nomi-flex9 button{
+.zen-flex9 button, .nomi-flex9 button{
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -1126,39 +1126,39 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   color: #8c725a;
 }
 
-.p5-flex9 button:focus, .nomi-flex9 button:focus{
+.zen-flex9 button:focus, .nomi-flex9 button:focus{
   outline: none;
 }
 
-.p5-flex9 button:hover, .nomi-flex9 button:hover{
+.zen-flex9 button:hover, .nomi-flex9 button:hover{
   color: #f5f2ef;
 }
 
-.p5-flex9 i, .nomi-flex9 i{
+.zen-flex9 i, .nomi-flex9 i{
   font-size: 2em;
 }
 /* paper stack order */
-.p5-flex9 #p1{
+.zen-flex9 #p1{
   z-index: 6;
 }
 
-.p5-flex9 #p2, .nomi-flex9 #p1{
+.zen-flex9 #p2, .nomi-flex9 #p1{
   z-index: 5;
 }
 
-.p5-flex9 #p3, .nomi-flex9 #p2{
+.zen-flex9 #p3, .nomi-flex9 #p2{
   z-index: 4;
 }
 
-.p5-flex9 #p4, .nomi-flex9 #p3{
+.zen-flex9 #p4, .nomi-flex9 #p3{
   z-index: 3;
 }
 
-.p5-flex9 #p5, .nomi-flex9 #p4{
+.zen-flex9 #p5, .nomi-flex9 #p4{
   z-index: 2;
 }
 
-.p5-flex9 #p6, .nomi-flex9 #p5{
+.zen-flex9 #p6, .nomi-flex9 #p5{
   z-index: 1;
 }
 

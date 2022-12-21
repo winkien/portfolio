@@ -851,7 +851,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* project 1, 2, 3, 4, 5 page */
-.clown-info, .soap-info, .nomi-info, .zen-info, .profit-info, .p7-info {
+.clown-info, .soap-info, .nomi-info, .zen-info, .profit-info{
   color: #6d5946;
   font-family: "Trebuchet MS";
   margin-bottom: 5em;
@@ -859,21 +859,21 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   text-align: center;
 }
 
-.clown-info h3 .number, .soap-info h3 .number, .nomi-info h3 .number, .zen-info h3 .number, .profit-info h3 .number, .p7-info h3 .number{
+.clown-info h3 .number, .soap-info h3 .number, .nomi-info h3 .number, .zen-info h3 .number, .profit-info h3 .number{
   color: #cdbfb1;
 }
 
-.clown-info h3, .soap-info h3, .nomi-info h3, .zen-info h3, .profit-info h3, .p7-info h3 {
+.clown-info h3, .soap-info h3, .nomi-info h3, .zen-info h3, .profit-info h3{
   color: #8c725a;
 
 }
-.clown-info p, .soap-info p, .nomi-info p, .zen-info p, .profit-info p, .p7-info p {
+.clown-info p, .soap-info p, .nomi-info p, .zen-info p, .profit-info p{
   color: #af9883;
   font-family: "Poppins";
   text-align: center;
 }
 
-.clown-text p, .soap-text p, .nomi-text p, .zen-text p, .profit-text p, .p7-text p {
+.clown-text p, .soap-text p, .nomi-text p, .zen-text p, .profit-text p{
   font-size: 1.1em;
   line-height: 150%;
   text-align: left;
@@ -883,14 +883,14 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 60%;
 }
 
-.clown-image img, .soap-image img, .nomi-image img, .zen-image img, .profit-image img, .p7-image img {
+.clown-image img, .soap-image img, .nomi-image img, .zen-image img, .profit-image img{
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.clown-image p, .clown-image2 p, .soap-image p, .nomi-image p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .p7-image2 p, .p7-image3 p{
+.clown-image p, .clown-image2 p, .soap-image p, .nomi-image p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;
@@ -985,44 +985,6 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   margin-right: auto;
   display: block;
   max-width: 60%;
-}
-
-.p7-image1{
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-}
-
-.p7-image1 iframe {
-  position: absolute;
-  top: 2em;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 60%;
-  height: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.p7-flex1{
-  margin-bottom: 55em;
-}
-
-.p7-image2 img{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width:60%;
-}
-
-.p7-image3 img{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width:60%;
 }
 
 .clown-info img{

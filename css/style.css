@@ -851,7 +851,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* project 1, 2, 3, 4, 5 page */
-.clown-info, .soap-info, .nomi-info, .zen-info, .profit-info{
+.clown-info, .soap-info, .nomi-info, .zen-info, .profit-info, .eclipse-info{
   color: #6d5946;
   font-family: "Trebuchet MS";
   margin-bottom: 5em;
@@ -859,21 +859,21 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   text-align: center;
 }
 
-.clown-info h3 .number, .soap-info h3 .number, .nomi-info h3 .number, .zen-info h3 .number, .profit-info h3 .number{
+.clown-info h3 .number, .soap-info h3 .number, .nomi-info h3 .number, .zen-info h3 .number, .profit-info h3 .number, .eclipse-info h3 .number{ 
   color: #cdbfb1;
 }
 
-.clown-info h3, .soap-info h3, .nomi-info h3, .zen-info h3, .profit-info h3{
+.clown-info h3, .soap-info h3, .nomi-info h3, .zen-info h3, .profit-info h3, .eclipse-info h3{
   color: #8c725a;
 
 }
-.clown-info p, .soap-info p, .nomi-info p, .zen-info p, .profit-info p{
+.clown-info p, .soap-info p, .nomi-info p, .zen-info p, .profit-info p, .eclipse-info p{
   color: #af9883;
   font-family: "Poppins";
   text-align: center;
 }
 
-.clown-text p, .soap-text p, .nomi-text p, .zen-text p, .profit-text p{
+.clown-text p, .soap-text p, .nomi-text p, .zen-text p, .profit-text p, .eclipse-text p{
   font-size: 1.1em;
   line-height: 150%;
   text-align: left;
@@ -883,14 +883,14 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 60%;
 }
 
-.clown-image img, .soap-image img, .nomi-image img, .zen-image img, .profit-image img{
+.clown-image img, .soap-image img, .nomi-image img, .zen-image img, .profit-image img, .eclipse-image img{
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.clown-image p, .clown-image2 p, .soap-image p, .nomi-image p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p{
+.clown-image p, .clown-image2 p, .soap-image p, .nomi-image p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .eclipse-image p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;
@@ -987,7 +987,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 60%;
 }
 
-.clown-info img{
+.clown-info img, .eclipse-info img{
   max-width: 50%;
 }
 
@@ -999,7 +999,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-height:40em;
 }
 
-.soap-flex2, .nomi-flex2, .zen-flex {
+.soap-flex2, .nomi-flex2, .zen-flex{
   position: relative;
   display: flex;
   justify-content: space-around;

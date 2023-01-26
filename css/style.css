@@ -623,7 +623,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   text-align: center;
 }
 
-.home-flex{
+.home-flex, .home-flex1{
   position: relative;
   display: flex;
   justify-content: center;
@@ -634,7 +634,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   /* margin: 10%; */
 }
 
-#art .home-flex {
+#art .home-flex1 {
   margin-bottom: 7em;
 }
 
@@ -750,28 +750,18 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   cursor: pointer;
 }
 
-#art .button{
-  background-color: #af9883; 
+#art a{
+  /* background-color: #af9883;  */
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: #af9883;
+
   text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
-  display:grid;
-  justify-content: center;  
+  justify-content:center;  
   align-items: center;  
-  width: 150px;
-  height: 50px;
-  margin-left: 45%;
-  margin-right: 45%;
-  margin-top: -5em;
-  margin-bottom: 2em;
 }
 
-#art .button:hover{
+#art a:hover{
   background-color: #dcd2c8; 
   transition: 0.5s;
   cursor: pointer;

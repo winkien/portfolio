@@ -694,9 +694,6 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   }
 }
 
-
-
-
 #project .home-project img {
   max-width: 100%;
   margin-top: -.4em;
@@ -842,7 +839,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* project 1, 2, 3, 4, 5 page */
-.clown-info, .soap-info, .nomi-info, .zen-info, .profit-info, .eclipse-info{
+.clown-info, .zen-info, .profit-info, .eclipse-info{
   color: #6d5946;
   font-family: "Trebuchet MS";
   margin-bottom: 5em;
@@ -850,21 +847,21 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   text-align: center;
 }
 
-.clown-info h3 .number, .soap-info h3 .number, .nomi-info h3 .number, .zen-info h3 .number, .profit-info h3 .number, .eclipse-info h3 .number{ 
-  color: #cdbfb1;
-}
-
-.clown-info h3, .soap-info h3, .nomi-info h3, .zen-info h3, .profit-info h3, .eclipse-info h3{
+.clown-info h3, .zen-info h3, .profit-info h3, .eclipse-info h3{
   color: #8c725a;
-
 }
-.clown-info p, .soap-info p, .nomi-info p, .zen-info p, .profit-info p, .eclipse-info p{
+
+.clown-info h4, .zen-info h4, .profit-info h4, .eclipse-info h4{
+  color: #af9883;
+}
+
+.clown-info p, .zen-info p, .profit-info p, .eclipse-info p{
   color: #af9883;
   font-family: "Poppins";
   text-align: center;
 }
 
-.clown-text p, .soap-text p, .nomi-text p, .zen-text p, .profit-text p, .eclipse-text p{
+.clown-text p, .zen-text p, .profit-text p, .eclipse-text p{
   font-size: 1.1em;
   line-height: 150%;
   text-align: left;
@@ -874,14 +871,14 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 60%;
 }
 
-.clown-image img, .soap-image img, .nomi-image img, .zen-image img, .profit-image img, .eclipse-image img{
+.clown-image img, .zen-image img, .profit-image img, .eclipse-image img{
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.clown-image p, .clown-image2 p, .soap-image p, .nomi-image p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .eclipse-image p{
+.clown-image p, .clown-image2 p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .eclipse-image p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;
@@ -982,15 +979,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   max-width: 50%;
 }
 
-.nomi-info img{
-  max-height: 40em;
-}
-
-.soap-flex2 img{
-  max-height:40em;
-}
-
-.soap-flex2, .nomi-flex2, .zen-flex{
+.zen-flex{
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -1001,7 +990,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* flipped book */
-.zen-flex9, .nomi-flex9{
+.zen-flex9{
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1069,7 +1058,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* controller buttons */
-.zen-flex9 button, .nomi-flex9 button{
+.zen-flex9 button{
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -1078,15 +1067,15 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   color: #8c725a;
 }
 
-.zen-flex9 button:focus, .nomi-flex9 button:focus{
+.zen-flex9 button:focus{
   outline: none;
 }
 
-.zen-flex9 button:hover, .nomi-flex9 button:hover{
+.zen-flex9 button:hover{
   color: #f5f2ef;
 }
 
-.zen-flex9 i, .nomi-flex9 i{
+.zen-flex9 i{
   font-size: 2em;
 }
 /* paper stack order */
@@ -1094,23 +1083,23 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   z-index: 6;
 }
 
-.zen-flex9 #p2, .nomi-flex9 #p1{
+.zen-flex9 #p2{
   z-index: 5;
 }
 
-.zen-flex9 #p3, .nomi-flex9 #p2{
+.zen-flex9 #p3{
   z-index: 4;
 }
 
-.zen-flex9 #p4, .nomi-flex9 #p3{
+.zen-flex9 #p4{
   z-index: 3;
 }
 
-.zen-flex9 #p5, .nomi-flex9 #p4{
+.zen-flex9 #p5{
   z-index: 2;
 }
 
-.zen-flex9 #p6, .nomi-flex9 #p5{
+.zen-flex9 #p6{
   z-index: 1;
 }
 

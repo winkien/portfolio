@@ -885,6 +885,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   margin-right: auto;
   display: block;
   max-width: 60%;
+  font-size: small;
 }
 
 .clown-image2 img{

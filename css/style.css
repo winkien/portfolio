@@ -593,7 +593,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 #project{
     margin-top: 7em;
-    margin-bottom: 7em;
+    margin-bottom: 12em;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -642,7 +642,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 @media screen and (min-width: 2000px){
   #project .home-flex .home-project{
     position: relative;
-    width: 20%;
+    width: 30%;
     margin:1%;
   }
   #art .home-flex .home-project{
@@ -653,29 +653,15 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* 3 pic */
-@media screen and (max-width: 2000px) and (min-width: 1400px){
+@media screen and (max-width: 2000px) and (min-width: 700px){
   #project .home-flex .home-project{
     position: relative;
-    width: 31%;
+    width: 30%;
     margin:1%;
   }
   #art .home-flex .home-project{
     position: relative;
     width: 25%;
-    margin:1%;
-  }
-}
-
-/* 2 pic */
-@media screen and (max-width: 1400px) and (min-width: 700px){
-  #project .home-flex .home-project{
-    position: relative;
-    width: 45%;
-    margin:1%;
-  }
-  #art .home-flex .home-project{
-    position: relative;
-    width: 28%;
     margin:1%;
   }
 }
@@ -686,6 +672,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     position: relative;
     width: 100%;
     margin:1%;
+    margin-bottom: 8em;
   }
   #art .home-flex .home-project{
     position: relative;
@@ -695,36 +682,36 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 #project .home-project img {
-  max-width: 100%;
+  width: 100%;
   margin-top: -.4em;
-  border-radius: 10%;
+  border-radius: 50%;
 }
 
 #art .home-project img {
-  max-width: 100%;
+  width: 100%;
   margin-top: -.4em;
-  /* border-radius: 10%; */
 }
 
 .home-project .text{
   text-align: center;
   position: absolute;
-  top: 50%;
+  /* top: 100%; */
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  margin-top: 3em;
 }
 
-.home-project .overlay .text h4{
+.home-project .text h4{
   color: #6d5946;
   font-size: 1.5em;
 }
 
 .home-project .text h5{
   color: #6d5946;
-  font-size: .8em;
+  font-size: 1em;
+  margin-top:-1em;
 }
 
 .overlay {
@@ -738,11 +725,11 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   opacity: 0;
   transition: .3s ease;
   background-color: #dcd2c8;
-  /* border-radius: 10%; */
+  border-radius: 50%;
 }
 
 .home-project:hover .overlay{
-  opacity: 1;
+  opacity: .7;
   transition: 0.5s;
   cursor: pointer;
 }

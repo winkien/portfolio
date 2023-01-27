@@ -834,6 +834,10 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   text-align: center;
 }
 
+.eclipse-flex1, .zen-flex1, .clown-flex1{
+  margin-bottom: 5em;
+}
+
 .clown-info h3, .zen-info h3, .profit-info h3, .eclipse-info h3{
   color: #8c725a;
 }
@@ -865,7 +869,16 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   display: block;
 }
 
-.clown-image p, .clown-image2 p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .eclipse-image p{
+.eclipse-image1 img{
+  max-width: 10%;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flexbox;
+  margin: .5%;
+}
+
+.clown-image p, .clown-image2 p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .eclipse-image p, .eclipse-image1 p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;

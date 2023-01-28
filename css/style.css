@@ -892,7 +892,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 80%;
+  width: 100%;
 }
 
 .zen-image1 img, .zen-image3 img, .zen-image4 img{

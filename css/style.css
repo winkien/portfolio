@@ -591,7 +591,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   height: auto;
 }
 
-#project{
+#work{
     margin-top: 7em;
     margin-bottom: 12em;
     margin-left: auto;
@@ -599,7 +599,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     width: 80%;
 }
 
-.home-page h3, #project h3, #art h3, #collaboration h3{
+.home-page h3, #work h3, #art h3, #collaboration h3{
   color: #8c725a;
   text-align: center;
   font-weight: 800;
@@ -609,11 +609,11 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 
-.home-page .title, #project .title {
+.home-page .title, #work .title {
   font-size: 2em;
 }
 
-#project p, #art p{
+#work p, #art p{
   color: #8c725a;
   /* font-size: 1.2em; */
   font-weight:500;
@@ -640,7 +640,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 /* 4 pic */
 @media screen and (min-width: 2000px){
-  #project .home-flex .home-project{
+  #work .home-flex .home-project{
     position: relative;
     width: 30%;
     margin:1%;
@@ -654,7 +654,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 /* 3 pic */
 @media screen and (max-width: 2000px) and (min-width: 700px){
-  #project .home-flex .home-project{
+  #work .home-flex .home-project{
     position: relative;
     width: 30%;
     margin:1%;
@@ -668,7 +668,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 /* 1 pic */
 @media screen and (max-width: 700px) {
-  #project .home-flex .home-project{
+  #work .home-flex .home-project{
     position: relative;
     width: 100%;
     margin:1%;
@@ -681,7 +681,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   }
 }
 
-#project .home-project img {
+#work .home-project img {
   width: 100%;
   margin-top: -.4em;
   border-radius: 50%;

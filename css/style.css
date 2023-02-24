@@ -724,12 +724,12 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: #dcd2c8;
-  border-radius: 50%;
+  background-color: rgba(108, 108, 108);
+  /* border-radius: 50%; */
 }
 
 .home-project:hover .overlay{
-  opacity: .7;
+  opacity: 1;
   transition: 0.5s;
   cursor: pointer;
 }

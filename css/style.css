@@ -878,7 +878,27 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   /* margin: .5%; */
 }
 
-.clown-image p, .clown-image2 p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .eclipse-image p, .eclipse-image1 p{
+.eclipse-image2 img{
+  max-width: 30%;
+  width: 30%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flexbox;
+  /* margin: .5%; */
+}
+
+.eclipse-image3 img{
+  /* max-width: 30%;
+  width: 30%; */
+  height: 450px;
+  max-height: 5%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flexbox;
+  /* margin: .5%; */
+}
+
+.clown-image p, .clown-image2 p, .zen-image p, .profit-image2 p, .profit-image3 p, .profit-image4 p, .profit-image5 p, .eclipse-image p, .eclipse-image1 p, .eclipse-image2 p, .eclipse-image3 p{
   text-align: center;
   margin-bottom:3em;
   margin-left: auto;

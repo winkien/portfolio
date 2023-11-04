@@ -650,70 +650,18 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 /* bio page */
 .bio-page {
-  margin-left: 3em;
-  margin-right: 3em;
-  margin-bottom: 5em;
-  color: #6d5946;
-  margin-top: 8em;
-}
-
-.bio-flex {
-  position: relative;
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  margin-top: 5em;
+  margin-bottom: 10em;
 }
 
-.bio-image {
-  position: relative;
-  max-width: 40em;
-}
-
-.bio-image img {
-  max-width: 100%;
-  width: 100%;
-  height:auto;
-}
-
-.bio-text {
-  position: relative;
-  max-width: 40em;
-}
-
-@media screen and (min-width: 1440px){
-  .bio-text{
-    margin-top :-3em;
-  }
-}
-
-.bio-text h2 {
-  margin-top: 2em;
-  font-family: "san-serif";
-  font-style: italic;
-  font-size:2em;
-}
-
-.bio-text h3 {
-  margin-top: 2em;
-  font-family: "san-serif";
-  font-style: italic;
-  font-size:1.3em;
-}
-
-.bio-text ul {
-  margin-bottom: 3em;
-  margin-right: -5em;
-}
-
-.bio-text ul li {
-  display: block;
-  margin-top: 0.8em;
-  margin-left: -2.5em;
-}
-
-.bio-text i {
-  margin-right: 1em;
+.bio-page img{
+  width: 60%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* project page */

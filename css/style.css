@@ -10,6 +10,7 @@ html {
   height: 100vh;
   font-family: "Roboto", "Roboto Condensed";
   font-weight: 200;
+  user-select: none;
 }
 
 h1 {

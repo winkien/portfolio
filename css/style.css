@@ -725,6 +725,24 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   #work {
     width: 80%;
   }
+  
+  .home-banner, .home3, .home2, .home1{
+    display: block;
+  }
+
+  .home-banner-mobile, .home3-mobile, .home2-mobile, .home1-mobile{
+    display:none;
+  }
+}
+
+@media screen and (max-width:600px){
+  .home-banner, .home3, .home2, .home1{
+    display: none;
+  }
+  
+  .home-banner-mobile, .home3-mobile, .home2-mobile, .home1-mobile{
+    display:block;
+  }
 }
 
 #work{

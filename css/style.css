@@ -72,6 +72,7 @@ nav {
   font-size: 1.5em;
   margin-left: 3em;
   text-decoration: none;
+  position:fixed;
 }
 
 .logo a:hover {
@@ -844,40 +845,47 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* project page */
-.project-info {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+#project{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
-
-
-@media screen and (min-width: 864px){
-  .project-info .body img{
-    width: 60%;
-    height: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
-  .project-info .title img{
-    margin-top: 4%;
-    width: 60%;
-    height: auto;
-  }
+#project .title img, #project .body img {
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top:2%;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media screen and (max-width: 864px){
-  .project-info .body img{
-    width: 80%;
-    height: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
+
+@media screen and (min-width:600px){
+  .project-web{
+    display: block;
   }
-  .project-info .title img{
-    width: 80%;
-    height: auto;
+
+  .project-mobile{
+    display:none;
   }
 }
 
+@media screen and (max-width:600px){
+  .project-web{
+    display: none;
+  }
+
+  .project-mobile{
+    display:block;
+  }
+
+  #project .title img, #project .body img {
+    /* width: 100%; */
+    margin-bottom: 1.5em;
+    margin-top:3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /* contact page */
 @media screen and (min-width: 550px){

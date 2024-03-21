@@ -766,6 +766,9 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 #side{
   margin-bottom: 1%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .side-flex{
@@ -848,7 +851,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 #project{
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
 }
 
 #project .title img, #project .body img {

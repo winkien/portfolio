@@ -727,21 +727,21 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     width: 80%;
   }
   
-  .home-banner, .home3, .home2, .home1{
+  .home-banner, .home-web{
     display: block;
   }
 
-  .home-banner-mobile, .home3-mobile, .home2-mobile, .home1-mobile{
+  .home-banner-mobile, .home-mobile{
     display:none;
   }
 }
 
 @media screen and (max-width:600px){
-  .home-banner, .home3, .home2, .home1{
+  .home-banner, .home-web{
     display: none;
   }
   
-  .home-banner-mobile, .home3-mobile, .home2-mobile, .home1-mobile{
+  .home-banner-mobile, .home-mobile{
     display:block;
   }
 }
@@ -788,11 +788,11 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     /* cursor: pointer; */
   }
 
-  .side-flex1, .side-flex2, .side-flex3{
+  .side-flex-web{
     display: flexbox;
   }
 
-  .side-flex1-mobile, .side-flex2-mobile, .side-flex3-mobile{
+  .side-flex-mobile{
     display: none;
   }
 }
@@ -804,11 +804,11 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     margin-top: -.3em;
   }
 
-  .side-flex1, .side-flex2, .side-flex3{
+  .side-flex-web{
     display: none;
   }
 
-  .side-flex1-mobile, .side-flex2-mobile, .side-flex3-mobile{
+  .side-flex-mobile{
     display: flexbox;
   }
 }

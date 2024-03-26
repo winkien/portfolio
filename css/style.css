@@ -851,7 +851,6 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 #project{
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
 }
 
 #project .title img, #project .body img {
@@ -870,6 +869,10 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   .project-mobile{
     display:none;
   }
+
+  #project{
+    width: 60%;
+  }
 }
 
 @media screen and (max-width:600px){
@@ -887,6 +890,10 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     margin-top:3%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #project{
+    width: 80%;
   }
 }
 

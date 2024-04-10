@@ -764,6 +764,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   opacity: .5;
 }
 
+
 #side{
   margin-bottom: 1%;
   width: 100%;
@@ -781,8 +782,8 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 @media screen and (min-width: 864px){
   .side-flex img {
-    width: 33.3%;
-    margin-right: -.3em;
+    width: 50%;
+    margin-right: -.5em;
     align-items: center;
     margin-bottom: -.15em;
     /* cursor: pointer; */

@@ -865,6 +865,19 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   margin-right: auto;
 }
 
+#project .body .gif-flex{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#project .body .gif{
+    width: 33%;
+    align-items: center;
+}
+
 @media screen and (min-width:600px){
   .project-web{
     display: block;

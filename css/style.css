@@ -77,6 +77,11 @@ nav {
   position:fixed;
 }
 
+.logo img{
+  width: 2em;
+  height: auto;
+}
+
 .logo a:hover {
   color: #AE9780;
   transition: 0.3s;
@@ -137,10 +142,16 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   .logo {
     padding: 0;
     margin-top: 0.7em;
-    margin-left: -2em;
+    margin-left: -1.5em;
     font-size: 1.4em;
     float: left;
   }
+
+  .logo img{
+    width: 1.2em;
+    height: auto;
+  }
+  
 
   .nav-wrapper {
     position:fixed;
@@ -255,10 +266,15 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 @media screen and (max-width: 600px) and (min-width:400px){
   .logo {
     padding: 0;
-    margin-top: -2.4em;
-    margin-left: -2.3em;
+    margin-top: -.7em;
+    margin-left: -1.3em;
     font-size: 1em;
     float: left;
+  }
+
+  .logo img{
+    width: 1em;
+    height: auto;
   }
 
   .nav-wrapper {
@@ -374,10 +390,14 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 @media screen and (max-width: 400px){
   .logo {
     padding: 0;
-    margin-top: -2.4em;
-    margin-left: -2.5em;
+    margin-top: -2em;
+    margin-left: -.5em;
     font-size: .7em;
     float: left;
+  }
+  .logo img{
+    width: 1.2em;
+    height: auto;
   }
 
   .nav-wrapper {
@@ -394,7 +414,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   }
 
   nav{
-    height:3em;
+    height:0em;
   }
 
   .nav-wrapper ul {
@@ -699,7 +719,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 /* warning */
 .heading-w {
   font-size: 0.1em;
-  color: #fff;
+  color: #F3EFEC;
 }
 
 /* art page */
@@ -869,7 +889,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   border: none;
   outline: none;
   background-color: #af9883;
-  color: white;
+  color: #F3EFEC;
   cursor: pointer;
   width:1.5em;
   height:1.5em;

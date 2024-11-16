@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, minimum-scale=1" />
+  <meta name="description" content="Winkie Ng's Portfolio">
+  <title>Winkie Ng's Portfolio</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" href="img/logo.png">
+
+  <!-- Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <section class="navbar">
+    <h2><span class="heading-w">.</span></h2>
+    <nav>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+      <div class="logo">
+        <!-- <a href="index.html">WN</a> -->
+        <a href="index.html"><img src="img/logo2.png" alt="banner" ></a>
+      </div>
+      <div class="nav-wrapper">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="bio.html" class="nav-link">About</a></li>
+          <li><a href="index.html#work" class="nav-link">Work</a></li>
+          <li><a href="index.html#art" class="nav-link">Art Gallery</a></li>
+          <li><a href="https://www.linkedin.com/in/winkie-ng"> <i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section id="project">
+    <img src="img/back-to-top.png" alt="back-to-top" onclick="topFunction()" id="myBtn" title="Go to top">
+
+    <div class="title">
+      <img src="img/coco/coco-cover.png" alt="coco-cover" class="project-cover">    
+      <br>
+    </div>
+
+    <div class="body">
+      <!-- <div class="project-web"> -->
+        <img src="img/coco/coco-intro.png" alt="coco-intro">
+        <br>
+        <img src="img/coco/coco-all.png" alt="coco-all">
+        <br>
+        <img src="img/coco/coco-mango.png" alt="coco-mango">
+        <br>
+        <img src="img/coco/coco-strawberry.png" alt="coco-strawberry">
+        <br>
+        <img src="img/coco/coco-matcha.png" alt="coco-matcha">
+        <br>
+        <img src="img/coco/coco-brownsugar.png" alt="coco-brownsugar">
+        <br>
+        <img src="img/coco/coco-grape.png" alt="coco-grape">
+        <br>
+        <img src="img/coco/coco-poster.png" alt="coco-poster">
+        <br>
+        <img src="img/coco/coco-post.png" alt="coco-post">
+      <!-- </div> -->
+    </div>
+  </section>
+
+  <footer class="footer-area">
+    <div class="main">
+      <div class="footer">
+        <img src="img/footer.png" alt="footer" width="100%">
+        <!-- <h1><i>let's create together</i></h1> -->
+        <div class="single-footer">
+          <ul>
+            <li>
+              <p><a href="pdf/Ng_Winkie_Resume.pdf" target="_blank">Resume</a></p>
+            </li>
+            <li>
+              <p><a href="mailto:ng.winkie@yahoo.com">Email</a></p>
+            </li>
+            <li>
+              <p><a href="https://www.linkedin.com/in/winkie-ng/">Linkedin</a></p>
+            </li>
+          </ul>
+        </div>
+        <img src="img/footer2.png" alt="footer2" width="100%">
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/style.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 800
+    });
+
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>

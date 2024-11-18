@@ -704,8 +704,8 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 #work .home-project img {
   width: 100%;
-  margin-bottom: 1%;
-  margin-top:1%;
+  margin-bottom: 0;
+  margin-top:0;
   cursor: pointer;
 }
 
@@ -720,12 +720,6 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 .heading-w {
   font-size: 0.1em;
   color: #F3EFEC;
-}
-
-/* art page */
-#art{
-  margin-bottom: 5em;
-  margin-top: 5em;
 }
 
 /* bio page */

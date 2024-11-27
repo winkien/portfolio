@@ -723,7 +723,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* bio page */
-.bio-page {
+.body-bio {
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -731,11 +731,67 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   margin-bottom: 10em;
 }
 
-.bio-page img{
-  width: 60%;
-  height: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
+#project .body-bio .bio-intro img {
+  width: 100%;
+  margin-bottom: 3%;
+  margin-top:3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#project .body-bio .sfu-link img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width:600px){
+  .project-web{
+    display: block;
+  }
+
+  .project-mobile{
+    display:none;
+  }
+
+  #project .body-bio .bio-intro{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2em;
+    margin-top: 2em;
+  }
+
+  #project .body-bio .sfu-link img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:.8%;
+    margin-top: .8%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .project-web{
+    display: none;
+  }
+
+  .project-mobile{
+    display:block;
+  }
+
+  #project .body-bio .bio-intro{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+  }
+
+  #project .body-bio .sfu-link img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* project page */
@@ -745,7 +801,6 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 #project .title img{
-  margin-bottom: 2em;
   width: 100%;
 }
 
@@ -757,23 +812,16 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   margin-right: auto;
 }
 
-#project .body .gif-flex{
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
 #project .body .gif{
-    width: 33%;
-    align-items: center;
+  width: 33%;
+  align-items: center;
 }
 
 #project a img:hover{
   opacity: 0.5;
   transition: 0.3s;
 }
+
 @media screen and (min-width:600px){
   .project-web{
     display: block;
@@ -787,6 +835,8 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:2em;
+    margin-top: 2em;
   }
 }
 
@@ -800,76 +850,11 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   }
 
   #project .body{
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2em;
   }
-}
-
-/* contact page */
-@media screen and (min-width: 550px){
-  input[type=search], textarea{
-    width: 25em;
-  }
-}
-
-@media screen and (max-width: 959px){
-  .contact-flex .contact-text{
-    margin-bottom: 5em;
-  }
-}
-
-.contact-page{
-  color: #6d5946;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  margin-left: 3em;
-  margin-right: 3em;
-  margin-top: 5em;
-}
-
-.contact-flex{
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 5em;
-}
-
-.contact-flex .contact-text{
-  position: relative;
-  max-width: 30em;
-}
-
-.contact-text p {
-  font-size: 1.1em;
-  line-height: 150%;
-  margin-bottom: 2em;
-  text-align: center;
-  color: #6d5946;
-}
-
-.contact-page a{
-  color: #6d5946;
-  text-decoration: none;
-}
-
-.contact-page i{
-  margin-right: 1em;
-}
-
-.contact-form {
-  position: relative;
-  max-width: 35em;
-  text-align: center;
-}
-
-
-.contact-page h2{
-  color: #af9883;
-  font-family: "Trebuchet MS";
-  text-align: center;
 }
 
 /* back to top button */

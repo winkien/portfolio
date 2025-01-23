@@ -883,3 +883,56 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 }
 
 /* cursor */
+
+
+#side{
+  margin-bottom: 1%;
+}
+
+.side-flex{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 864px){
+  .side-flex img {
+    width: 50%;
+    margin-right: -.3em;
+    align-items: center;
+    margin-bottom: -.15em;
+    /* cursor: pointer; */
+  }
+
+  /* .side-flex1, .side-flex2{
+    display: flexbox;
+  }
+
+  .side-flex1-mobile, .side-flex2-mobile{
+    display: none;
+  } */
+}
+@media screen and (max-width: 864px){
+  .side-flex img {
+    width: 50%;
+    align-items: center;
+    margin-right: -.3em;
+    margin-top: -.3em;
+  }
+
+  /* .side-flex1, .side-flex2{
+    display: none;
+  }
+
+  .side-flex1-mobile, .side-flex2-mobile{
+    display: flexbox;
+  } */
+}
+
+.side-flex img:hover {
+  transition: .3s ease;
+  cursor: pointer;
+  opacity: .5;
+}

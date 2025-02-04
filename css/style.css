@@ -548,9 +548,9 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 /* end of nav bar */
 
 /* button for home page filter */
-.container {
+/* .container {
   overflow: hidden;
-}
+} */
 
 .filterDiv {
   float: left;
@@ -568,40 +568,42 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 #myBtnContainer{
   text-align: center;
   font-family: "Arial";
-  /* height: 2.5em; */
 }
 
 @media screen and (min-width:1400px){
-  #myBtnContainer img{
+  #myBtnContainer button{
     height: 2.5em;
   }
-  #myBtnContainer .btn{
+  #myBtnContainer img{
     height: 2.5em;
   }
 }
 
 @media screen and (min-width:600px) and (max-width: 1400px){
-  #myBtnContainer img{
+  #myBtnContainer button{
     height: 2em;
   }
-  #myBtnContainer .btn{
+  #myBtnContainer img{
     height: 2em;
   }
 }
 
 @media screen and (max-width:600px){
-  #myBtnContainer img{
-    height: 1em;
+  #myBtnContainer button{
+    height: 1.5em;
   }
-  #myBtnContainer .btn{
-    height: 1em;
+  #myBtnContainer img{
+    height: 1.5em;
   }
 }
 
 .btn {
-  border: none;
+  border:none;
+  /* background-color:#413529;
+  color:#DCD2C8; */
   outline: none;
   opacity: 80%;
+  height: 2.5em;
 }
 
 /* Add a light grey background on mouse-over */

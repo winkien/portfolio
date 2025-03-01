@@ -572,28 +572,19 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 
 @media screen and (min-width:1400px){
-  #myBtnContainer button{
-    height: 2.5em;
-  }
-  #myBtnContainer img{
+  #myBtnContainer .btn{
     height: 2.5em;
   }
 }
 
 @media screen and (min-width:600px) and (max-width: 1400px){
-  #myBtnContainer button{
-    height: 2em;
-  }
-  #myBtnContainer img{
+  #myBtnContainer .btn{
     height: 2em;
   }
 }
 
 @media screen and (max-width:600px){
-  #myBtnContainer button{
-    height: 1.5em;
-  }
-  #myBtnContainer img{
+  #myBtnContainer .btn{
     height: 1.5em;
   }
 }

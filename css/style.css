@@ -567,8 +567,9 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 /* Style the buttons */
 #myBtnContainer{
   text-align: center;
-  font-family: "Arial";
+  background-color: #413529;
 }
+
 
 @media screen and (min-width:1400px){
   #myBtnContainer button{
@@ -599,11 +600,19 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 .btn {
   border:none;
-  /* background-color:#413529;
-  color:#DCD2C8; */
+  background-color:#413529;
+
+  color:#DCD2C8;
   outline: none;
   opacity: 80%;
   height: 2.5em;
+  font-family: 'Arial';
+  letter-spacing: .11em;
+  font-weight: 600;
+  margin: .5em;
+  padding-left: .8em;
+  padding-right: .8em;
+  font-size: 1.3em;
 }
 
 /* Add a light grey background on mouse-over */
@@ -616,6 +625,8 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 /* Add a dark background to the active button */
 .btn.active {
   opacity: 100%;
+  border-style: solid;
+  border-color: #DCD2C8;
 }
 
 /* footer */

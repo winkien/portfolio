@@ -572,24 +572,26 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 
 @media screen and (min-width:1400px){
-  #myBtnContainer .btn{
+   .btn{
     height: 2.5em;
+    font-size: 1.3em;
   }
 }
 
 @media screen and (min-width:600px) and (max-width: 1400px){
-  #myBtnContainer .btn{
+   .btn{
     height: 2em;
   }
 }
 
 @media screen and (max-width:600px){
-  #myBtnContainer .btn{
+   .btn{
     height: 1.5em;
+    font-size: .6em;
   }
 }
 
-.btn {
+ .btn {
   border:none;
   background-color:#413529;
   color:#DCD2C8;
@@ -602,7 +604,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   margin: .5em;
   padding-left: .8em;
   padding-right: .8em;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
 }
 
 /* Add a light grey background on mouse-over */

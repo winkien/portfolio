@@ -677,7 +677,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
   .footer a {
     text-decoration: none;
     color: #413529;
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   .footer ul {
@@ -704,6 +704,7 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
   .footer-middle img, .footer-right img{
     height: 2em;
+    margin-bottom: 2%;
   }
 }
 

@@ -776,9 +776,9 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
 
 .banner img{
   width: 100%;
-  height: auto;  
+  /* height: auto;  
   position: relative;
-  text-align: center;
+  text-align: center; */
 }
 
 @media screen and (min-width:600px){

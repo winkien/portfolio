@@ -54,16 +54,15 @@ body {
 nav {
   margin: 0;
   width: 100%;
-  height: 4em;
+  height: 5em;
   font-family: monospace;
   letter-spacing: .11em;
   font-weight: 500;
-  padding-top: 1em;
   position: fixed;
   background-color: #F3EFEC;
   z-index: 9999999;
-  /* top: 0; */
-  /* margin-top: .5em; */
+  top: 0;
+  border-bottom: 2px solid #413529;
 }
 
 .logo {
@@ -72,12 +71,10 @@ nav {
 }
 
 .logo a {
-  color: #897057;
-  text-transform: uppercase;
-  font-weight: 550;
   font-size: 1.5em;
   margin-left: 2em;
   margin-top: 1em; 
+  padding-bottom: 1em; 
   text-decoration: none;
   position:fixed;
 }
@@ -94,14 +91,6 @@ nav {
 
 .nav-wrapper{
   background-color: #F3EFEC;
-}
-
-.navbar hr{
-  height: 2px;
-  color:#413529;
-  background-color: #413529;
-  border-width: 0;
-  opacity: 75%;
 }
 
 .navbar nav ul {
@@ -155,10 +144,10 @@ nav ul li a.nav-link:hover:before{
   transform: scaleX(1);
 }
 
-@media screen and (max-width: 864px) and (min-width:600px){
+/* tablet size */
+@media screen and (max-width: 1280px) and (min-width:440px){
   .logo {
     padding: 0;
-    margin-top: .4em;
     margin-left: -1.5em;
     font-size: 1.4em;
     float: left;
@@ -199,7 +188,7 @@ nav ul li a.nav-link:hover:before{
     list-style: none;
     float: right;
     margin-right: 2em;
-    margin-top:1em;
+    margin-top: 1em;
   }
 
   .nav-wrapper ul li:nth-child(1) a {
@@ -225,7 +214,7 @@ nav ul li a.nav-link:hover:before{
 
   .nav-wrapper ul li:nth-child(4) a {
     transition-delay: 0.5s;
-    margin-right: 2em;
+    margin-right: -1.3em;
     float: right;
     text-align: right;
   }
@@ -244,7 +233,7 @@ nav ul li a.nav-link:hover:before{
   .nav-btn {
     position: fixed;
     right: 1em;
-    top: 2.5em;
+    top: 1.5em;
     display: block;
     width: 5em;
     height: 5em;
@@ -279,136 +268,16 @@ nav ul li a.nav-link:hover:before{
   }
 }
 
-@media screen and (max-width: 600px) and (min-width:400px){
+/* phone */
+@media screen and (max-width: 440px){
   .logo {
     padding: 0;
-    margin-top: -1.2em;
-    margin-left: -1.3em;
-    font-size: 1em;
-    float: left;
-  }
-
-  .logo img{
-    width: 2em;
-    height: auto;
-  }
-
-  .nav-wrapper {
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: #F3EFEC;
-    opacity: 0;
-    transition: all 0.2s ease;
-    font-size: 1.8em;
-  }
-
-  nav{
-    height:4em;
-  }
-
-  .nav-wrapper ul {
-    position:absolute;
-    top: 45%;
-    transform: translateY(-50%);
-    width: 100%;
-  }
-
-  .nav-wrapper ul li {
-    display: none;
-    width: 100%;
-    list-style: none;
-    float: right;
-    margin-right: 2em;
-    margin-top:1em;
-  }
-
-  .nav-wrapper ul li:nth-child(1) a {
-    transition-delay: 0.2s;
-    float: right;
-    text-align: right;
-  }
-
-  .nav-wrapper ul li:nth-child(2) a {
-    transition-delay: 0.3s;
-    float: right;
-    text-align: right;
-  }
-
-  .nav-wrapper ul li:nth-child(3) a {
-    transition-delay: 0.4s;
-    float: right;
-    text-align: right;
-  }
-
-  .nav-wrapper ul li:nth-child(4) a {
-    transition-delay: 0.5s;
-    margin-right: -3.4em;
-    float: right;
-    text-align: right;
-  }
-
-  .nav-wrapper ul li a {
-    padding: 0.625em 1.5em;
-    opacity: 0;
-    color: #897057;
-    font-size: 0.875em;
-    font-weight: 600;
-    letter-spacing: 0.075em;
-    transform: translateX(-1.25em);
-    transition: all 0.2s ease;
-  }
-
-  .nav-btn {
-    position: fixed;
-    right: 1em;
-    top: 2.5em;
-    display: block;
-    width: 5em;
-    height: 5em;
-    cursor: none;
-    z-index: 9999;
-    border-radius: 50%;
-  }
-
-  .nav-btn i {
-    display: block;
-    width: 1.5em;
-    height: .15em;
-    background: #897057;
-    margin-left: 0.875em;
-  }
-
-  .nav-btn i:nth-child(2) {
-    margin-top: 0.35em;
-    opacity: 1;
-  }
-
-  .nav-btn i:nth-child(3) {
-    margin-top: 0.35em;
-  }
-
-  #nav:checked+.nav-btn i:nth-child(1) {
-    transform: translateY(.55em) rotate(135deg);
-  }
-
-  .navbar hr{
-    display: hidden;
-    opacity: 0;
-  }
-}
-
-@media screen and (max-width: 400px){
-  .logo {
-    padding: 0;
-    margin-top: -1.7em;
+    /* margin-top: -1.7em; */
     margin-left: -.5em;
-    font-size: .7em;
+    font-size: 1.2em;
     float: left;
   }
+
   .logo img{
     width: 1.2em;
     height: auto;
@@ -428,7 +297,7 @@ nav ul li a.nav-link:hover:before{
   }
 
   nav{
-    height:0em;
+    height:5em;
   }
 
   .nav-wrapper ul {
@@ -469,6 +338,7 @@ nav ul li a.nav-link:hover:before{
     transition-delay: 0.5s;
     float: right;
     text-align: right;
+    margin-right: -3.2em;
   }
 
   .nav-wrapper ul li a {
@@ -554,118 +424,9 @@ nav ul li a.nav-link:hover:before{
 
 /* end of nav bar */
 
-/* home page */
-/* button for home page filter */
-
-.filterDiv {
-  float: left;
-  text-align: center;
-  margin: 2px;
-  display: none; 
-}
-
-.show {
-  display: block;
-}
-
-#myBtnContainer{
-  text-align: center;
-  font-family: monospace;
-}
-
-@media screen and (min-width:1400px){
-   .btn{
-    height: 2.5em;
-    font-size: 1.3em;
-  }
-}
-
-@media screen and (min-width:600px) and (max-width: 1400px){
-   .btn{
-    height: 2em;
-  }
-}
-
-@media screen and (max-width:600px){
-   .btn{
-    height: 1.5em;
-    font-size: .6em;
-  }
-}
-
- .btn {
-  border:none;
-  background-color:#413529;
-  color:#DCD2C8;
-  outline: none;
-  opacity: 80%;
-  font-family: monospace;
-  letter-spacing: .11em;
-  font-weight: 600;
-  margin: .5em;
-  padding-left: .8em;
-  padding-right: .8em;
-}
-
-.btn:hover {
-  opacity: 50%;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.btn.active {
-  opacity: 100%;
-}
-
-/* end of home filter */
-
 /* footer */
-@media screen and (max-width:600px){
-  .footer-flex {
-    width: 100%;
-    display: flex;
-    padding: 5%;
-    flex-direction: column;
-  }
-
-  .footer-flex div{
-    padding: .5em;
-  }
-
-  .footer a {
-    text-decoration: none;
-    color: #413529;
-    font-size: 1.3em;
-  }
-
-  .footer ul {
-    font-family: monospace;
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-  }
-
-
-  .footer ul li a:hover, .contact-page a:hover {
-    opacity: .5;
-    transition: 0.2s;
-    cursor: pointer;
-  }
-
-  .footer-left, .footer-middle, .footer-right {
-    width:100%;
-  }
-
-  .footer-left img{
-    width: 100%;
-  }
-
-  .footer-middle img, .footer-right img{
-    height: 1em;
-  }
-}
-
-@media screen and (max-width:1777px) and (min-width:600px){
+/* desktop */
+@media screen and (min-width:1280px){
   .footer-flex {
     width: 100%;
     display: flex;
@@ -704,62 +465,104 @@ nav ul li a.nav-link:hover:before{
     height: 2em;
     margin-bottom: 2%;
   }
+
+  .footer-bottom img{
+    width: 100%;
+  }
 }
 
-@media screen and (min-width:1777px){
-  .footer {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin: 0;
+/* tablet */
+@media screen and (max-width:1280px) and (min-width:440px){
+  .footer-flex {
     width: 100%;
     display: flex;
-  }
-
-  .footer div {
-    flex: 1;
-  }
-
-  .footer .single-footer p {
-    text-align: center;
-    font-size: 1em;
+    padding: 5%;
   }
 
   .footer a {
     text-decoration: none;
     color: #413529;
-    text-align: left;
-
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .footer ul {
-    text-align: center;
+    font-family: monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
   }
 
-  .footer ul li {
-    display: inline-block;
-    margin-right: 1.1em;
-  }
 
   .footer ul li a:hover, .contact-page a:hover {
-    color: #F3EFEC;
-    transition: 0.3s;
+    opacity: .5;
+    transition: 0.2s;
     cursor: pointer;
   }
 
-  .footer-left {
-    flex: 33%;
-    background-color: #F3EFEC;
+  .footer-left, .footer-middle, .footer-right {
+    width:100%;
   }
 
-  .footer-middle {
-    flex: 33%;
-    background-color: #F3EFEC;
+  .footer-left img{
+    width: 80%;
   }
 
-  .footer-right {
-    flex: 33%;
-    background-color: #F3EFEC;
+  .footer-middle img, .footer-right img{
+    height: 2em;
+    margin-bottom: 2%;
+  }
+
+  .footer-bottom img{
+    width: 100%;
+  }
+}
+
+/* phone */
+@media screen and (max-width:440px){
+  .footer-flex {
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+  }
+
+  .footer-flex div{
+    padding: .5em;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #413529;
+    font-size: 1em;
+  }
+
+  .footer ul {
+    font-family: monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .footer ul li a:hover, .contact-page a:hover {
+    opacity: .5;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  .footer-left, .footer-middle, .footer-right {
+    width:80%;
+  }
+
+  .footer-left img{
+    width: 100%;
+  }
+
+  .footer-middle img, .footer-right img{
+    height: 1em;
+  }
+
+  .footer-bottom img{
+    width: 100%;
   }
 }
 /* end of footer */
@@ -774,12 +577,9 @@ nav ul li a.nav-link:hover:before{
 .banner img{
   width: 100%;
   margin-top: 5em;
-  /* height: auto;  
-  position: relative;
-  text-align: center; */
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:440px){
   
   .home-banner, .home-web{
     display: block;
@@ -790,7 +590,7 @@ nav ul li a.nav-link:hover:before{
   }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:440px){
   .home-banner, .home-web{
     display: none;
   }
@@ -799,6 +599,69 @@ nav ul li a.nav-link:hover:before{
     display:block;
   }
 }
+
+/* button for home page filter */
+
+.filterDiv {
+  float: left;
+  text-align: center;
+  margin: 2px;
+  display: none; 
+}
+
+.show {
+  display: block;
+}
+
+#myBtnContainer{
+  text-align: center;
+  font-family: monospace;
+}
+
+@media screen and (min-width:1280px){
+   .btn{
+    height: 2.5em;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width:440px) and (max-width: 1280px){
+   .btn{
+    height: 2em;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width:600px){
+   .btn{
+    height: 1.5em;
+    font-size: .8em; 
+  }
+}
+
+ .btn {
+  border:none;
+  background-color:#413529;
+  color:#DCD2C8;
+  outline: none;
+  opacity: 80%;
+  font-family: monospace;
+  letter-spacing: .11em;
+  font-weight: 600;
+  margin: .5em;
+}
+
+.btn:hover {
+  opacity: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn.active {
+  opacity: 100%;
+}
+
+/* end of home filter */
 
 #work{
   margin-left: auto;

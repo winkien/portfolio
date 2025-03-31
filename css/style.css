@@ -13,6 +13,8 @@ html {
   user-select: none;
   scroll-behavior: smooth;
   background-color: #F3EFEC;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
